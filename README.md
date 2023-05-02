@@ -46,10 +46,10 @@ cp output/x-pack-core-$version.crack.jar x-pack-core-$version.jar
 
 RPM包安装默认路径
 
-'''shell
-/usr/share/elasticsearch/modules/x-pack-core/![image](https://user-images.githubusercontent.com/21145071/235567437-96832e6f-c3a8-4a03-a30d-da0f11d05893.png)
+```shell
+/usr/share/elasticsearch/modules/x-pack-core/
 
-’‘’
+```
 
 
 
