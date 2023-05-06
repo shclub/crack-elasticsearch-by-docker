@@ -2,7 +2,8 @@ ARG VERSION
 
 FROM elasticsearch:${VERSION} AS Baseline
 
-FROM eclipse-temurin:19.0.2_7-jdk
+FROM eclipse-temurin:20.0.1_9-jdk
+
 
 ARG VERSION
 ARG HTTP_PROXY
