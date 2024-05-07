@@ -8,6 +8,8 @@ Crack elasticsearch 7.x / 8.x by docker
 * elasticsearch 8.2.0
 * elasticsearch 8.5.0
 * elasticsearch 8.7.0
+* elasticsearch 8.9.1
+
 
 
 # 注意事项
@@ -27,11 +29,11 @@ git clone https://github.com/wolfbolin/crack-elasticsearch-by-docker.git
 
 Run srcipt with version
 
-运行脚本并指定完整版本（例如: 8.2.0)
+运行脚本并指定完整版本（예: 8.9.1)
 
 ```shell
 cd crack-elasticsearch-by-docker
-version=8.2.0
+version=8.9.1
 bash crack.sh $version
 ```
 
